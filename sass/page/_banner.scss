@@ -1,0 +1,39 @@
+.banner{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &-background-image{
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 500px;
+        }
+    }
+    &-content{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        color: white;
+
+        &-header{
+            h1{
+                font-weight: bold;
+            }
+        }
+        &-button{
+            display: inline-block;
+            padding: 5px 10px;
+            border: 2px solid white;
+            cursor: pointer;
+
+            p{
+                display: inline;
+            }
+
+            &-hover:hover{
+                border: 2px solid #9b4924;
+            }
+        }
+    }
+}

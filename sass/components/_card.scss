@@ -1,0 +1,25 @@
+.card{
+    border: 1 solid $color-cards;
+    border-radius: 10px;
+
+    &-img{
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &-header{
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        font-size: 1.8em;
+    }
+
+    &-content{
+        font-size: 1.2em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

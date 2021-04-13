@@ -1,0 +1,61 @@
+
+//text///////////
+.text{
+    &-muted{
+        color: $color-muted;
+    }
+    &-primary{
+        color: $color-primary;
+    }
+    &-sucess{
+        color: $color-success;
+    }
+    &-infor{
+        color: $color-infor;
+    }
+    &-warning{
+        color: $color-warning;
+    }
+    &-danger{
+        color: $color-danger;
+    }
+    &-light{
+        color: $color-light;
+    }
+    &-dark{
+        color: $color-dark;
+    }
+
+
+    &-coffee{
+        color: $color-coffee;
+    }
+
+    &-white{
+        color: white;
+    }
+}
+// Background //////////////
+.bg{
+    &-primary{
+        background-color: $color-primary;
+    }
+    &-success{
+        background-color: $color-success;
+    }
+    &-infor{
+        background-color: $color-infor;
+    }
+    &-warning{
+        background-color: $color-warning;
+    }
+    &-danger{
+        background-color: $color-danger;
+    }
+    &-light{
+        background-color: $color-light;
+    }
+    &-dark{
+        background-color: $color-dark;
+    }
+}

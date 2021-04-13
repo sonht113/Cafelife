@@ -1,0 +1,48 @@
+.btn{
+    padding: 13px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+    &-coffee{
+        background-color: $color-button-section;
+    }
+    &-primary{
+        background-color: $color-primary;
+    }
+    &-success{
+        background-color: $color-success;
+    }
+    &-infor{
+        background-color: $color-infor;
+    }
+    &-warning{
+        background-color: $color-warning;
+    }
+    &-danger{
+        background-color: $color-danger;
+    }
+    &-light{
+        background-color: $color-light;
+    }
+    &-dark{
+        background-color: $color-dark;
+    }
+    //size//////
+    &-lg{
+        font-size: large;
+    }
+    &-md{
+        font-size: medium;
+    }
+    &-sm{
+        font-size: small;
+    }
+
+    &-hover:hover{
+       opacity: 0.7;
+       transition: 1s;
+    }
+}
