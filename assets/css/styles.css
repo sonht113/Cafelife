@@ -1,0 +1,174 @@
+@media (max-width: 1250px) and (min-width:1024px){
+    .banner-content{
+        position: absolute;
+        top: 40%;
+        left: 7%;
+    }
+}
+
+@media (max-width: 1023px) and (min-width:768px) {
+    .navbar{
+        position: fixed;
+    }
+    .navbar-nav-menu{
+        display: none  !important;
+    }
+    .active{
+        margin: 0;
+        background-color:black;
+        opacity: 0.7;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        position: fixed;
+        top: 72px;
+        left: 0px;
+        display: block !important;
+    }
+    .navbar-nav-menu li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-top: 50px !important;
+    }
+    .navbar-nav-menu .nav-item-right{
+        margin-right: 20px !important;
+    }
+    .banner-content{
+        position: absolute;
+        top: 30%;
+        left: 1%;
+    }
+
+    .content-section .section-banner-right img{
+        width: 300px;
+        height: 250px;
+    }
+    .content-section .section-img img{
+        height: 400px;
+    }
+    .content-section .section-banner-left p{
+        display: none;
+    }
+
+    .button-product-content button{
+        font-size: 1.3em;
+    }
+
+    .banner-doc-content .doc{
+        font-size: 4em;
+    }
+
+    .content .banner-map .form-control{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar{
+        position: fixed;
+    }
+    .navbar-nav-menu{
+        display: none  !important;
+    }
+    .active{
+        margin: 0;
+        background-color:black;
+        opacity: 0.7;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        position: fixed;
+        top: 72px;
+        left: 0px;
+        display: block !important;
+    }
+    .navbar-nav-menu li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-top: 50px !important;
+    }
+    .navbar-nav-menu .nav-item-right{
+        margin-right: 20px !important;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    .banner-content-header h1{
+        font-size: 4em;
+        margin-bottom: 20px;
+    }
+    .banner-content-center pre{
+        font-size: 2em;
+    }
+    .section-img{
+        display: none;
+    }
+    .content-section .section-banner{
+        position: static;
+    }
+    .content-section .section-banner-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .content-section .section-banner-left > div{
+        margin: 0 auto;
+    }
+    .content-section .section-banner-right img {
+        width: 100%;
+    }
+
+    .box-title-content{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-list-product-img{
+        display: none;
+    }
+    .content .banner-list-product .product{
+        position: static;
+    }
+    .button-product-content{
+        margin: 0 auto;
+    }
+    .list-product-content{
+        margin-bottom: 30px;
+    }
+    .content .product-2 .list-product-2 .list-product-content .product-img img{
+        width: 100%;
+    }
+    .product-content-sub-tittle{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .content .banner-doc-content h1{
+        font-size: 15em;
+    }
+    .content .banner-doc-content .doc{
+        font-size: 3em;
+        margin-top: 30px;
+    }
+    .content .banner-map .form-control{
+        position: static;
+        background-color: white;
+    }
+    .form-top{
+        display: block;
+    }
+    .name{
+        margin-bottom: 25px;
+    }
+    .footer-doc{
+        margin-left: 30px;
+    }
+    .list-icon-inter{
+        margin: 0 auto;
+    }
+}
